@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\marten-sample.props" />
+</Project>

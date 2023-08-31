@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>marten_sample</RootNamespace>
+    <UserSecretsId>00840e59-9972-46bf-aedf-7c723dfbc716</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Marten" Version="6.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="WolverineFx" Version="1.6.0" />
+    <PackageReference Include="WolverineFx.Marten" Version="1.6.0" />
+  </ItemGroup>
+
+</Project>
